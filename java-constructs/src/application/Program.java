@@ -16,16 +16,16 @@ public class Program {
         String name = scan.nextLine();
         System.out.print("Price: ");
         double price = scan.nextDouble();
-        System.out.print("Quantity in stock: ");
-        int quantity = scan.nextInt();
-        Product product = new Product(name, price, quantity);
+//        System.out.print("Quantity in stock: ");
+//        int quantity = scan.nextInt();
+        Product product = new Product(name, price);
 
         System.out.println();
         System.out.println("Product data: " + product);
 
         System.out.println();
         System.out.print("Enter the number of products to be added in stock: ");
-        quantity = scan.nextInt();
+        int quantity = scan.nextInt();
         product.addProduct(quantity);
 
         System.out.println();
