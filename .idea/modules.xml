@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/java-OO/java-OO.iml" filepath="$PROJECT_DIR$/java-OO/java-OO.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java-basics/java-basics.iml" filepath="$PROJECT_DIR$/java-basics/java-basics.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java-basics-more/java-basics-more.iml" filepath="$PROJECT_DIR$/java-basics-more/java-basics-more.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/java-classes.iml" filepath="$PROJECT_DIR$/.idea/java-classes.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java-constructs/java-constructs.iml" filepath="$PROJECT_DIR$/java-constructs/java-constructs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java-dowhile/java-dowhile.iml" filepath="$PROJECT_DIR$/java-dowhile/java-dowhile.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java-exercise-OO-01/java-exercise-OO-01.iml" filepath="$PROJECT_DIR$/java-exercise-OO-01/java-exercise-OO-01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java-exercise-OO-02/java-exercise-OO-02.iml" filepath="$PROJECT_DIR$/java-exercise-OO-02/java-exercise-OO-02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java-exercise-OO-03/java-exercise-OO-03.iml" filepath="$PROJECT_DIR$/java-exercise-OO-03/java-exercise-OO-03.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java-exercise-while/java-exercise-while.iml" filepath="$PROJECT_DIR$/java-exercise-while/java-exercise-while.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java-for/java-for.iml" filepath="$PROJECT_DIR$/java-for/java-for.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java-ifelse/java-ifelse.iml" filepath="$PROJECT_DIR$/java-ifelse/java-ifelse.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java-while/java-while.iml" filepath="$PROJECT_DIR$/java-while/java-while.iml" />
+    </modules>
+  </component>
+</project>
