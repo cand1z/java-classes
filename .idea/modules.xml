@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/encap/encap.iml" filepath="$PROJECT_DIR$/encap/encap.iml" />
+      <module fileurl="file://$PROJECT_DIR$/exercise-encap-acessmod/exercise-encap-acessmod.iml" filepath="$PROJECT_DIR$/exercise-encap-acessmod/exercise-encap-acessmod.iml" />
       <module fileurl="file://$PROJECT_DIR$/java-OO/java-OO.iml" filepath="$PROJECT_DIR$/java-OO/java-OO.iml" />
       <module fileurl="file://$PROJECT_DIR$/java-basics/java-basics.iml" filepath="$PROJECT_DIR$/java-basics/java-basics.iml" />
       <module fileurl="file://$PROJECT_DIR$/java-basics-more/java-basics-more.iml" filepath="$PROJECT_DIR$/java-basics-more/java-basics-more.iml" />
