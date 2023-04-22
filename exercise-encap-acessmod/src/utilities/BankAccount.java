@@ -29,14 +29,14 @@ public class BankAccount {
     public BankAccount(int number, String name, double amount){
         holder = name;
         this.number = number;
-        balance = amount;
+        bankDeposit(amount);
     }
 
     public void bankDraft(double amount){
         balance -= amount + 5;
     }
 
-    public void bandDeposit(double amount){
+    public void bankDeposit(double amount){
         balance += amount;
     }
 
