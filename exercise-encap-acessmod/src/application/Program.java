@@ -20,18 +20,6 @@ public class Program {
 
         System.out.print("Is there an initial deposit (y/n): ");
         char initialDeposit = scan.next().charAt(0);
-        do {
-            if (initialDeposit == 'y') {
-                System.out.print("Enter initial deposit value: ");
-                amount = scan.nextDouble();
-                account = new BankAccount(accountNumber, accountHolder, amount);
-            } else if (initialDeposit == 'n'){
-                account = new BankAccount(accountNumber, accountHolder);
-            } else {
-                System.out.print("Insert a valid value (y/n)");
-                initialDeposit = scan.next().charAt(0);
-            }
-        } while (initialDeposit != 'y' && initialDeposit != 'n');
 
         if (initialDeposit == 'y') {
             System.out.print("Enter initial deposit value: ");
