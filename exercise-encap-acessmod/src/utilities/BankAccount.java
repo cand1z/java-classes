@@ -1,50 +1,50 @@
 package utilities;
 
 public class BankAccount {
-    private int accountNumber;
-    private String accountHolder;
-    private double amount;
-
-    public void setAccountHolder(String accountHolder) {
-        this.accountHolder = accountHolder;
-    }
-
-    public String getAccountHolder() {
-        return accountHolder;
-    }
-
-    public int getAccountNumber() {
-        return accountNumber;
-    }
-
-    public double getAmount() {
-        return amount;
-    }
-
     private final double TAX;
 
+    private int number;
+    private String holder;
+    private double balance;
+
+    public int getNumber() {
+        return number;
+    }
+
+    public void setHolder(String holder) {
+        this.holder = holder;
+    }
+
+    public String getHolder() {
+        return holder;
+    }
+
+    public double getBalance() {
+        return balance;
+    }
+
     public BankAccount(int number, String name){
-        accountHolder = name;
-        accountNumber = number;
+        holder = name;
+        this.number = number;
         TAX = 5.00;
     }
 
     public BankAccount(int number, String name, double amount){
-        accountHolder = name;
-        accountNumber = number;
-        this.amount = amount;
+        holder = name;
+        this.number = number;
+        balance = amount;
         TAX = 5.00;
     }
 
     public void bankDraft(double amount){
-        this.amount = this.amount - amount - TAX;
+        balance = balance - amount - TAX;
     }
 
     public void bandDeposit(double amount){
-        this.amount += amount;
+        balance += amount;
     }
 
     public String toString(){
-        return "Account " + accountNumber + ", Holder: " + accountHolder + ", Balance: $ " + amount;
+        return "Account " + number + ", Holder: " + holder + ", Balance: $ " + String.format("%.2f", balance);
     }
 }
