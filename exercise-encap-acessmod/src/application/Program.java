@@ -36,7 +36,7 @@ public class Program {
         System.out.println();
         System.out.print("Enter a deposit value: ");
         amount = scan.nextDouble();
-        account.bandDeposit(amount);
+        account.bankDeposit(amount);
         System.out.println("Updated account data:");
         System.out.println(account);
 
