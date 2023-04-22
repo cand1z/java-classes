@@ -1,8 +1,6 @@
 package utilities;
 
 public class BankAccount {
-    private final double TAX;
-
     private int number;
     private String holder;
     private double balance;
@@ -26,18 +24,16 @@ public class BankAccount {
     public BankAccount(int number, String name){
         holder = name;
         this.number = number;
-        TAX = 5.00;
     }
 
     public BankAccount(int number, String name, double amount){
         holder = name;
         this.number = number;
         balance = amount;
-        TAX = 5.00;
     }
 
     public void bankDraft(double amount){
-        balance = balance - amount - TAX;
+        balance -= amount + 5;
     }
 
     public void bandDeposit(double amount){
