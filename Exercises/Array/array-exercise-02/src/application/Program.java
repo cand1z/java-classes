@@ -11,25 +11,26 @@ public class Program {
         System.out.print("How many numbers you will put? ");
         int n = scanner.nextInt();
         double [] vect = new double[n];
-        double sum = 0;
+        double sum, avg;
 
         for (int i = 0; i < vect.length; i++) {
-            scanner.nextLine();
             System.out.print("Digit a number: ");
             vect[i] = scanner.nextDouble();
-            sum += vect[i];
         }
+
+        sum = 0;
 
         System.out.print("VALUES = ");
         for (int i = 0; i < vect.length; i++) {
             System.out.print(vect[i] + " ");
+            sum += vect[i];
         }
 
         System.out.println();
         System.out.println();
 
-        double avg = sum / vect.length;
-        System.out.println("SUM = " + sum);
+        avg = sum / vect.length;
+        System.out.printf("SUM = %.2f%n", sum);
         System.out.println("AVERAGE = "+ avg);
 
         scanner.close();
