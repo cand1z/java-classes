@@ -17,6 +17,7 @@
       <module fileurl="file://$PROJECT_DIR$/java-for/java-for.iml" filepath="$PROJECT_DIR$/java-for/java-for.iml" />
       <module fileurl="file://$PROJECT_DIR$/java-ifelse/java-ifelse.iml" filepath="$PROJECT_DIR$/java-ifelse/java-ifelse.iml" />
       <module fileurl="file://$PROJECT_DIR$/java-while/java-while.iml" filepath="$PROJECT_DIR$/java-while/java-while.iml" />
+      <module fileurl="file://$PROJECT_DIR$/vectors/vectors.iml" filepath="$PROJECT_DIR$/vectors/vectors.iml" />
     </modules>
   </component>
 </project>
