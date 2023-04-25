@@ -12,14 +12,14 @@ public class Program {
         int n = scanner.nextInt();
         int[] x = new int[n];
 
-        for (int i = 0; i < n; i++) {
+        for (int i = 0; i < x.length; i++) {
             scanner.nextLine();
             System.out.print("Number: ");
             x[i] = scanner.nextInt();
         }
 
         System.out.println("Negative numbers: ");
-        for (int i = 0; i < n; i++) {
+        for (int i = 0; i < x.length; i++) {
             if (x[i] < 0){
                 System.out.println(x[i]);
             }
