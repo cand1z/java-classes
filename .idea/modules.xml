@@ -18,6 +18,7 @@
       <module fileurl="file://$PROJECT_DIR$/java-ifelse/java-ifelse.iml" filepath="$PROJECT_DIR$/java-ifelse/java-ifelse.iml" />
       <module fileurl="file://$PROJECT_DIR$/java-while/java-while.iml" filepath="$PROJECT_DIR$/java-while/java-while.iml" />
       <module fileurl="file://$PROJECT_DIR$/vectors/vectors.iml" filepath="$PROJECT_DIR$/vectors/vectors.iml" />
+      <module fileurl="file://$PROJECT_DIR$/vectors2/vectors2.iml" filepath="$PROJECT_DIR$/vectors2/vectors2.iml" />
     </modules>
   </component>
 </project>
