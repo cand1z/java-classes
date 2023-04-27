@@ -22,4 +22,8 @@ public class Room {
     public int getNumber() {
         return number;
     }
+
+    public String toString() {
+        return name + ", " + email;
+    }
 }
