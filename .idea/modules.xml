@@ -26,7 +26,9 @@
       <module fileurl="file://$PROJECT_DIR$/Exercises/Simple/java-exercise-while/java-exercise-while.iml" filepath="$PROJECT_DIR$/Exercises/Simple/java-exercise-while/java-exercise-while.iml" />
       <module fileurl="file://$PROJECT_DIR$/Classes/java-for/java-for.iml" filepath="$PROJECT_DIR$/Classes/java-for/java-for.iml" />
       <module fileurl="file://$PROJECT_DIR$/Classes/java-ifelse/java-ifelse.iml" filepath="$PROJECT_DIR$/Classes/java-ifelse/java-ifelse.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Classes/java-lists/java-lists.iml" filepath="$PROJECT_DIR$/Classes/java-lists/java-lists.iml" />
       <module fileurl="file://$PROJECT_DIR$/Classes/java-while/java-while.iml" filepath="$PROJECT_DIR$/Classes/java-while/java-while.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Exercises/Lists/lists1/lists1.iml" filepath="$PROJECT_DIR$/Exercises/Lists/lists1/lists1.iml" />
       <module fileurl="file://$PROJECT_DIR$/Classes/vectors/vectors.iml" filepath="$PROJECT_DIR$/Classes/vectors/vectors.iml" />
       <module fileurl="file://$PROJECT_DIR$/Classes/vectors2/vectors2.iml" filepath="$PROJECT_DIR$/Classes/vectors2/vectors2.iml" />
     </modules>
