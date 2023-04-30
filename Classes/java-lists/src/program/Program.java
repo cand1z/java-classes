@@ -2,6 +2,7 @@ package program;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.stream.Collectors;
 
 public class Program {
     public static void main(String[] args) {
@@ -46,6 +47,28 @@ public class Program {
         // remove item with lambda sentence:
         list.removeIf(x -> Character.toUpperCase(x.charAt(0)) == 'M');
         System.out.println();
+        for (String i : list) {
+            System.out.println(i);
+        }
 
+        // discover position of an item:
+        System.out.println();
+        System.out.println("Position of Bob: "+ list.indexOf("Bob"));
+
+        System.out.println();
+        list.add("Alex");
+        list.add("Ana");
+
+        // filter that say only the person that begins with A
+        System.out.println();
+        List<String> result = list.stream().filter(i -> Character.toUpperCase(i.charAt(0)) == 'A').toList();
+        for (String i : result) {
+            System.out.println(i);
+        }
+
+        // filter the first list item
+        System.out.println();
+        String name = list.stream().filter(i -> Character.toUpperCase(i.charAt(0)) == 'A').findFirst().orElse(null);
+        System.out.println(name);
     }
 }
