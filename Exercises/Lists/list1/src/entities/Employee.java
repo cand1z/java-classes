@@ -5,21 +5,21 @@ public class Employee {
     private String name;
     private Double salary;
 
-    public Integer getId() {
-        return id;
-    }
-
     public Employee(Integer id, String name, Double salary) {
         this.id = id;
         this.name = name;
         this.salary = salary;
     }
 
-    public void increaseSalary(double percentage){
+    public Integer getId() {
+        return id;
+    }
+
+    public void increaseSalary(double percentage) {
         salary += salary * percentage / 100;
     }
 
     public String toString(){
-        return id + " " + name + " " + salary;
+        return id + ", " + name + ", " + String.format("%.2f", salary);
     }
 }
