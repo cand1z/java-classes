@@ -8,7 +8,6 @@ import java.util.Locale;
 import java.util.Scanner;
 
 import static utility.VerifyId.hasId;
-import static utility.VerifyId.existId;
 
 public class Program {
     public static void main(String[] args) {
@@ -37,8 +36,6 @@ public class Program {
             double salary = scanner.nextDouble();
 
             list.add(new Employee(id, name, salary));
-
-            System.out.println();
         }
 
         System.out.println();
