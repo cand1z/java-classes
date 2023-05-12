@@ -33,6 +33,13 @@ public class Program {
             System.out.println("Update!");
         }
 
+        // OVERRIDE
+        Account account1 = new Account(0001, "Claudio", 1000.0);
+        account1.withdraw(200);
+        System.out.println(account1.getBalance());
 
+        Account account2 = new SavingsAccount(0002, "Claudinho", 1000.0, 0.01);
+        account2.withdraw(200);
+        System.out.println(account2.getBalance());
     }
 }
