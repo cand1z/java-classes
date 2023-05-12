@@ -14,7 +14,6 @@ public class Program {
 
         // UPCAST
         Account acc1 = bacc;
-        System.out.println(acc1.getBalance());
 
         Account acc2 = new BusinessAccount(1003, "Maria", 0.0, 200.0);
         Account acc3 = new SavingsAccount(1004, "Ana", 0.0, 13.50);
