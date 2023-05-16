@@ -45,5 +45,15 @@ public class Program {
         Account account3 = new BusinessAccount(0003, "Bob", 1000.0, 500.0);
         account3.withdraw(200);
         System.out.println(account3.getBalance());
+
+        // polymorphism
+        Account x = new Account(1020, "Alex", 1000.0);
+        Account y = new SavingsAccount(1021, "Bob", 1000.0, 0.1);
+
+        x.withdraw(50.0);
+        y.withdraw(50.0);
+
+        System.out.println(x.getBalance());
+        System.out.println(y.getBalance());
     }
 }
