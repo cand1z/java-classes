@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Exercises/Matrix/matrix2/Matrix2.iml" filepath="$PROJECT_DIR$/Exercises/Matrix/matrix2/Matrix2.iml" />
       <module fileurl="file://$PROJECT_DIR$/Classes/abstract/abstract.iml" filepath="$PROJECT_DIR$/Classes/abstract/abstract.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Classes/abstract-method/abstract-method.iml" filepath="$PROJECT_DIR$/Classes/abstract-method/abstract-method.iml" />
       <module fileurl="file://$PROJECT_DIR$/Exercises/Array/array-exercise-01/array-exercise-01.iml" filepath="$PROJECT_DIR$/Exercises/Array/array-exercise-01/array-exercise-01.iml" />
       <module fileurl="file://$PROJECT_DIR$/Exercises/Array/array-exercise-02/array-exercise-02.iml" filepath="$PROJECT_DIR$/Exercises/Array/array-exercise-02/array-exercise-02.iml" />
       <module fileurl="file://$PROJECT_DIR$/Exercises/Array/array-exercise-03/array-exercise-03.iml" filepath="$PROJECT_DIR$/Exercises/Array/array-exercise-03/array-exercise-03.iml" />
