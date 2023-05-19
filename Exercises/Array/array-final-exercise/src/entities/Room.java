@@ -24,6 +24,7 @@ public class Room {
     }
 
     public String toString() {
-        return name + ", " + email;
+        return name + ", " + email
+                ;
     }
 }
