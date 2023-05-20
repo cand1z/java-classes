@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 public class Program {
     public static void main(String[] args) {
-        File file = new File("C:\\temp\\in.text");
+        File file = new File("C:\\temp\\in.txt");
         Scanner sc = null;
 
         try {
@@ -21,6 +21,7 @@ public class Program {
             if (sc != null) {
                 sc.close();
             }
+            System.out.println("Finally block executed");
         }
     }
 }
